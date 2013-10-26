@@ -4,7 +4,7 @@
  <title>Jekyll Bootstrap</title>
  <link href="http://username.github.io/" rel="self"/>
  <link href="http://username.github.io"/>
- <updated>2013-10-26T21:37:50+08:00</updated>
+ <updated>2013-10-27T00:29:59+08:00</updated>
  <id>http://username.github.io</id>
  <author>
    <name>Name Lastname</name>
@@ -17,7 +17,15 @@
    <link href="http://username.github.io/2013/10/26/hello-world"/>
    <updated>2013-10-26T00:00:00+08:00</updated>
    <id>http://username.github.io/2013/10/26/hello-world</id>
-   <content type="html"></content>
+   <content type="html">
+&lt;h1 id=&quot;&quot;&gt;第一篇日志&lt;/h1&gt;
+
+&lt;p&gt;之前不知道是查什么，突然看到了一个托管在github上面的基于jekyll的博客站，被其简约的外观深深吸引。正好自己也苦于找不到主机，本身就很想写一写技术类的日志什么的，所以就做了这个。&lt;/p&gt;
+
+&lt;p&gt;真是太棒啦~ 感觉是给自己挖了一个大坑呢，不过确实也需要找个地方能记下自己的点点滴滴，不太喜欢社交网站之类的，就在这里吧~&lt;/p&gt;
+
+&lt;p&gt;Jekyll还完全不会用呢，所以慢慢来吧。&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
