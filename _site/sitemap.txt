@@ -9,4 +9,5 @@ http://username.github.io/sitemap.txt
 http://username.github.io/tags.html
 
 http://username.github.io/2013/10/26/hello-world
+http://username.github.io/lessons/2011/12/29/jekyll-introduction%E5%89%AF%E6%9C%AC
 http://username.github.io/lessons/2011/12/29/jekyll-introduction
