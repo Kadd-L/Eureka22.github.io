@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>Jekyll Bootstrap</title>
-        <description>Jekyll Bootstrap - Name Lastname</description>
-        <link>http://username.github.io</link>
-        <link>http://username.github.io</link>
-        <lastBuildDate>2013-10-27T09:23:34+08:00</lastBuildDate>
-        <pubDate>2013-10-27T09:23:34+08:00</pubDate>
+        <title>Eureland</title>
+        <description>Eureland - Fei XIA</description>
+        <link>http://Eureka22.github.io</link>
+        <link>http://Eureka22.github.io</link>
+        <lastBuildDate>2013-10-27T10:32:19+08:00</lastBuildDate>
+        <pubDate>2013-10-27T10:32:19+08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -21,8 +21,8 @@
 
 &lt;p&gt;Jekyll还完全不会用呢，所以慢慢来吧。&lt;/p&gt;
 </description>
-                <link>http://username.github.io/2013/10/26/hello-world</link>
-                <guid>http://username.github.io/2013/10/26/hello-world</guid>
+                <link>http://Eureka22.github.io/2013/10/26/hello-world</link>
+                <guid>http://Eureka22.github.io/2013/10/26/hello-world</guid>
                 <pubDate>2013-10-26T00:00:00+08:00</pubDate>
         </item>
 
@@ -344,8 +344,8 @@ tags : [how-to, jekyll]&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt; or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
-                <link>http://username.github.io/lessons/2011/12/29/jekyll-introduction%E5%89%AF%E6%9C%AC</link>
-                <guid>http://username.github.io/lessons/2011/12/29/jekyll-introduction副本</guid>
+                <link>http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction%E5%89%AF%E6%9C%AC</link>
+                <guid>http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction副本</guid>
                 <pubDate>2011-12-29T00:00:00+08:00</pubDate>
         </item>
 
@@ -667,8 +667,8 @@ tags : [how-to, jekyll]&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt; or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
-                <link>http://username.github.io/lessons/2011/12/29/jekyll-introduction</link>
-                <guid>http://username.github.io/lessons/2011/12/29/jekyll-introduction</guid>
+                <link>http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction</link>
+                <guid>http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction</guid>
                 <pubDate>2011-12-29T00:00:00+08:00</pubDate>
         </item>
 

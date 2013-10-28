@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.io/" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2013-10-27T09:23:34+08:00</updated>
- <id>http://username.github.io</id>
+ <title>Eureland</title>
+ <link href="http://Eureka22.github.io/" rel="self"/>
+ <link href="http://Eureka22.github.io"/>
+ <updated>2013-10-27T10:32:19+08:00</updated>
+ <id>http://Eureka22.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>Fei XIA</name>
+   <email>xf1280@gmail.com</email>
  </author>
 
  
  <entry>
    <title>Hello World</title>
-   <link href="http://username.github.io/2013/10/26/hello-world"/>
+   <link href="http://Eureka22.github.io/2013/10/26/hello-world"/>
    <updated>2013-10-26T00:00:00+08:00</updated>
-   <id>http://username.github.io/2013/10/26/hello-world</id>
+   <id>http://Eureka22.github.io/2013/10/26/hello-world</id>
    <content type="html">
 &lt;h1 id=&quot;&quot;&gt;第一篇日志&lt;/h1&gt;
 
@@ -30,9 +30,9 @@
  
  <entry>
    <title>Jekyll Introduction副本</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction%E5%89%AF%E6%9C%AC"/>
+   <link href="http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction%E5%89%AF%E6%9C%AC"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction副本</id>
+   <id>http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction副本</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
@@ -353,9 +353,9 @@ tags : [how-to, jekyll]&lt;/code&gt;&lt;/pre&gt;
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://Eureka22.github.io/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
