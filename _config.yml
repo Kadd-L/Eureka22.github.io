@@ -1,21 +1,20 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: 
+title:            Eureland by Eureka
+description:      因为太没有安全感 才要找地方写下一些东西
+disqus_shortname: eureland 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://eureka22.github.io
-
+url: http://eureka22.github.io 
 
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Eureka
+  avatar:         xf.jpg
+  bio:            "人生就是不停的战斗，即使天寒地冻，路远马亡。"
+  email:          xf1280@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:   www.github.com/Eureka22
   stackexchange:  
   linkedin:       
   instagram:      
@@ -69,10 +68,10 @@ kramdown:
     coderay_css: class
  
  
-  comments :
-    provider : disqus
-    disqus :
-      short_name : jekyllbootstrap
+ # comments :
+  #  provider : duoshuo
+    #disqus :
+     # short_name : jekyllbootstrap
     
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

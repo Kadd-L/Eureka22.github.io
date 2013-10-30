@@ -3,9 +3,10 @@ layout: post
 title: "Hello World"
 description: "Tutorial"
 category: ""
+comments : true
 tags: []
 ---
-{% include JB/setup %}
+
 
 #第一篇日志
 之前不知道是查什么，突然看到了一个托管在github上面的基于jekyll的博客站，被其简约的外观深深吸引。正好自己也苦于找不到主机，本身就很想写一写技术类的日志什么的，所以就做了这个。
