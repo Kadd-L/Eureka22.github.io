@@ -122,6 +122,26 @@
   
 <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-06-25T00:00:00-04:00" itemprop="datePublished"><a href="http://localhost:4000/video-post">June 25, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About Your Name" itemprop="url">Your Name</a></span></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/video-post" rel="bookmark" title="A Post with a Video" itemprop="url">A Post with a Video</a></h1>
+    
+  </header>
+  <div class="entry-content" itemprop="description">
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/SqYiglufb8Y"> </iframe>
+
+<p>Video embeds are responsive and scale with the width of the main content block with the help of <a href="http://fitvidsjs.com/">FitVids</a>.</p>
+
+<p>Not sure if this only effects Kramdown or if it&#8217;s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the <code>&lt;iframe&gt;</code> tags and remove <code>allowfullscreen</code>. Example below:</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">&quot;560&quot;</span> <span class="na">height=</span><span class="s">&quot;315&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+</code></pre></div>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
     <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2013-05-23T00:00:00-04:00" itemprop="datePublished"><a href="http://localhost:4000/readability-feature-post">May 23, 2013</a></time></span><span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://localhost:4000/about" title="About Your Name" itemprop="url">Your Name</a></span></span></div><!-- /.entry-meta -->
     
       <h1 class="entry-title" itemprop="name"><a href="http://localhost:4000/readability-feature-post" rel="bookmark" title="Post with Large Feature Image and Text" itemprop="url">Post with Large Feature Image and Text</a></h1>
