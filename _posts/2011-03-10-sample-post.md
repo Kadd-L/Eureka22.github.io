@@ -12,7 +12,8 @@ comments: true
 share: true
 ---
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.[^2]
+[^2]:lll
 
 # Heading 1
 
@@ -82,11 +83,12 @@ Syntax highlighting via Pygments
 }
 {% endhighlight %}
 
-Non Pygments code example
+Non Pygments code example[^2]
 
     <div id="awesome">
         <p>This is great isn't it?</p>
     </div>
+[^2]:hahaha
 
 ## Buttons
 

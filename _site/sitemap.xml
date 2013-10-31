@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc></loc>
+        <loc>http://eureka22.github.io</loc>
     </url>
     
     
     <url>
-        <loc>/hello-world</loc>
+        <loc>http://eureka22.github.io/Nero-network</loc>
     </url>
     
     <url>
-        <loc>/Helloworld-post</loc>
+        <loc>http://eureka22.github.io/hello-world</loc>
     </url>
     
     <url>
-        <loc>/background-image</loc>
+        <loc>http://eureka22.github.io/Helloworld-post</loc>
     </url>
     
     <url>
-        <loc>/code-highlighting-post</loc>
+        <loc>http://eureka22.github.io/background-image</loc>
     </url>
     
     <url>
-        <loc>/sample-link-post</loc>
+        <loc>http://eureka22.github.io/code-highlighting-post</loc>
     </url>
     
     <url>
-        <loc>/video-post</loc>
+        <loc>http://eureka22.github.io/sample-link-post</loc>
     </url>
     
     <url>
-        <loc>/readability-feature-post</loc>
+        <loc>http://eureka22.github.io/video-post</loc>
     </url>
     
     <url>
-        <loc>/sample-post-images</loc>
+        <loc>http://eureka22.github.io/readability-feature-post</loc>
     </url>
     
     <url>
-        <loc>/readability-post</loc>
+        <loc>http://eureka22.github.io/sample-post-images</loc>
     </url>
     
     <url>
-        <loc>/sample-post</loc>
+        <loc>http://eureka22.github.io/readability-post</loc>
+    </url>
+    
+    <url>
+        <loc>http://eureka22.github.io/sample-post</loc>
     </url>
     
 </urlset>
