@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-math
 title: "Neronetwork"
 description: "Tutorial"
 category: ""
@@ -17,11 +17,13 @@ tags: []
 $$f(z) =\frac{1}{e^z+1} $$
 或者选用双曲正切函数
 $$tanh(z)=\frac{e^z-e^{-z}}{e^z+e^{-z}}$$
+
 ##神经网络模型
 我们已经知道了一个神经元的典型存在方式，就可以用这些神经元来搭建一个神经网络，许多神经网络都有下图所示的结构。有一层输入节点，有若干层影藏节点和一层输出节点。表上+1的节点就是偏置节点。
 ![3](http://img.blog.csdn.net/20130612173744656)
 
 可以利用线性代数度神经网络的向前传播进行求解。神经网络也可以有多个隐藏层，并且可以多输入多输出。
+
 ##神经网络与PCA
 ![pca](http://ufldl.stanford.edu/wiki/images/thumb/f/f9/Autoencoder636.png/400px-Autoencoder636.png)
 
@@ -37,7 +39,6 @@ $$tanh(z)=\frac{e^z-e^{-z}}{e^z+e^{-z}}$$
 ##神经网络的应用
 由于神经网络训练了一个能够提取数据特征的东西，所以可以用在特征提取、分类等领域。
 如图像（如手写数字、物品识别）、语音（如说话人识别、Phone Classification/Recogonition）和NLP（语言模型等）中的多种应用。
-
 
 ___
 [^1]:[从自联想神经网络到深度神经网络](http://blog.csdn.net/celerychen2009/article/details/9079715)
