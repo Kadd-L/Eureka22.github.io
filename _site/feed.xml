@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://eureka22.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://eureka22.github.io" />
-<updated>2013-11-01T07:24:55-04:00</updated>
+<updated>2013-11-02T11:37:50-04:00</updated>
 <id>http://eureka22.github.io/</id>
 <author>
   <name>Eureka</name>
@@ -15,8 +15,8 @@
 
 <entry>
   <title type="html"><![CDATA[Neronetwork]]></title>
-  <link>http://eureka22.github.io/Nero-network</link>
-  <id>http://eureka22.github.io/Nero-network</id>
+  <link>http://eureka22.github.io/%E7%AC%94%E8%AE%B0/Nero-network</link>
+  <id>http://eureka22.github.io/%E7%AC%94%E8%AE%B0/Nero-network</id>
   <published>2013-10-31T00:00:00-04:00</published>
   <updated>2013-10-31T00:00:00-04:00</updated>
   <author>
@@ -40,9 +40,10 @@
 &lt;p&gt;我们已经知道了一个神经元的典型存在方式，就可以用这些神经元来搭建一个神经网络，许多神经网络都有下图所示的结构。有一层输入节点，有若干层影藏节点和一层输出节点。表上+1的节点就是偏置节点。
 &lt;img src=&quot;http://img.blog.csdn.net/20130612173744656&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;可以利用线性代数度神经网络的向前传播进行求解。神经网络也可以有多个隐藏层，并且可以多输入多输出。
-##神经网络与PCA
-&lt;img src=&quot;http://ufldl.stanford.edu/wiki/images/thumb/f/f9/Autoencoder636.png/400px-Autoencoder636.png&quot; alt=&quot;pca&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;可以利用线性代数度神经网络的向前传播进行求解。神经网络也可以有多个隐藏层，并且可以多输入多输出。&lt;/p&gt;
+
+&lt;h2 id=&quot;pca&quot;&gt;神经网络与PCA&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://ufldl.stanford.edu/wiki/images/thumb/f/f9/Autoencoder636.png/400px-Autoencoder636.png&quot; alt=&quot;pca&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;如果隐藏层比输入和输出少，那么实际上就相当于对输入做了&lt;a href=&quot;http://ufldl.stanford.edu/wiki/index.php/自编码算法与稀疏性&quot;&gt;稀疏编码&lt;/a&gt;，这样训练出来的神经网络非常类似主成分分析(PCA).我在另一篇Tutorial &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;中看到，如果不采用Sigmoid函数而采用线性函数，那么这就是一个PCA模型，影藏节点的个数就是PCA的主成分数。&lt;/p&gt;
 
@@ -65,14 +66,14 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/Nero-network&quot;&gt;Neronetwork&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 31, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/%E7%AC%94%E8%AE%B0/Nero-network&quot;&gt;Neronetwork&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 31, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Hello World]]></title>
-  <link>http://eureka22.github.io/hello-world</link>
-  <id>http://eureka22.github.io/hello-world</id>
+  <link>http://eureka22.github.io/%E7%94%9F%E6%B4%BB/hello-world</link>
+  <id>http://eureka22.github.io/%E7%94%9F%E6%B4%BB/hello-world</id>
   <published>2013-10-30T00:00:00-04:00</published>
   <updated>2013-10-30T00:00:00-04:00</updated>
   <author>
@@ -88,7 +89,7 @@
 
 &lt;p&gt;Jekyll还完全不会用呢，所以慢慢来吧。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/hello-world&quot;&gt;Hello World&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 30, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/%E7%94%9F%E6%B4%BB/hello-world&quot;&gt;Hello World&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 30, 2013.&lt;/p&gt;</content>
 </entry>
 
 

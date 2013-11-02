@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World"
 description: "Tutorial"
-category: ""
+category: "生活"
 comments : true
 tags: []
 ---

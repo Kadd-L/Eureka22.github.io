@@ -2,7 +2,7 @@
 layout: post-math
 title: "Neronetwork"
 description: "Tutorial"
-category: ""
+category: "笔记"
 comments : true
 tags: []
 ---
