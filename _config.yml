@@ -7,24 +7,22 @@ url: http://eureka22.github.io
 
 # Owner/author information
 owner:
-  name:           XIA Fei(Eureka)
+  name:           Eureka
   avatar:         xf.jpg
   bio:            "人生就是不停的战斗，即使天寒地冻，路远马亡。"
   email:          xf1280@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:      
+  facebook:       
   github:   Eureka22
   stackexchange:  
-  linkedin: 
+  linkedin:       
   instagram:      
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:  https://plus.google.com/u/0/111116134168011837330
-  renren: http://www.renren.com/289605219/profile
-  weibo:
-		  
+  google_plus:   
+
 # Background image to be tiled on all pages
 background: ps_neutral.png
 
@@ -37,11 +35,14 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: <i class="icon-gift icon-large"></i>Present for Anna
-    url: /present
+  - title: Theme Setup
+    url: /theme-setup
+  - title: External Link
+    url: http://mademistakes.com
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
+timezone:    America/New_York
 future:      true
 pygments:    true
 markdown:    kramdown

@@ -4,10 +4,10 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://eureka22.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://eureka22.github.io" />
-<updated>2013-11-08T14:37:39+08:00</updated>
+<updated>2013-11-06T08:51:08-05:00</updated>
 <id>http://eureka22.github.io/</id>
 <author>
-  <name>XIA Fei(Eureka)</name>
+  <name>Eureka</name>
   <uri>http://eureka22.github.io/</uri>
   <email>xf1280@gmail.com</email>
 </author>
@@ -17,10 +17,10 @@
   <title type="html"><![CDATA[Neronetwork]]></title>
   <link>http://eureka22.github.io/%E7%AC%94%E8%AE%B0/Nero-network</link>
   <id>http://eureka22.github.io/%E7%AC%94%E8%AE%B0/Nero-network</id>
-  <published>2013-10-31T00:00:00+08:00</published>
-  <updated>2013-10-31T00:00:00+08:00</updated>
+  <published>2013-10-31T00:00:00-04:00</published>
+  <updated>2013-10-31T00:00:00-04:00</updated>
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -66,7 +66,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/%E7%AC%94%E8%AE%B0/Nero-network&quot;&gt;Neronetwork&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 31, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/%E7%AC%94%E8%AE%B0/Nero-network&quot;&gt;Neronetwork&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 31, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -74,10 +74,10 @@
   <title type="html"><![CDATA[Hello World]]></title>
   <link>http://eureka22.github.io/%E7%94%9F%E6%B4%BB/hello-world</link>
   <id>http://eureka22.github.io/%E7%94%9F%E6%B4%BB/hello-world</id>
-  <published>2013-10-30T00:00:00+08:00</published>
-  <updated>2013-10-30T00:00:00+08:00</updated>
+  <published>2013-10-30T00:00:00-04:00</published>
+  <updated>2013-10-30T00:00:00-04:00</updated>
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -89,7 +89,7 @@
 
 &lt;p&gt;Jekyll还完全不会用呢，所以慢慢来吧。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/%E7%94%9F%E6%B4%BB/hello-world&quot;&gt;Hello World&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 30, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/%E7%94%9F%E6%B4%BB/hello-world&quot;&gt;Hello World&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 30, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -98,10 +98,10 @@
   <link>http://eureka22.github.io/Helloworld-post</link>
   <id>http://eureka22.github.io/Helloworld-post</id>
   <updated>2013-05-31T00:00:00-00:00</updated>
-  <published>2013-10-29T00:00:00+08:00</published>
+  <published>2013-10-29T00:00:00-04:00</published>
   
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -232,7 +232,7 @@
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/Helloworld-post&quot;&gt;Sample Post&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 29, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/Helloworld-post&quot;&gt;Sample Post&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 29, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -240,10 +240,10 @@
   <title type="html"><![CDATA[Post with a Background Image]]></title>
   <link>http://eureka22.github.io/background-image</link>
   <id>http://eureka22.github.io/background-image</id>
-  <published>2013-10-26T00:00:00+08:00</published>
-  <updated>2013-10-26T00:00:00+08:00</updated>
+  <published>2013-10-26T00:00:00-04:00</published>
+  <updated>2013-10-26T00:00:00-04:00</updated>
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -259,7 +259,7 @@
 
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/background-image&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 26, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/background-image&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on October 26, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -268,10 +268,10 @@
   <link>http://eureka22.github.io/code-highlighting-post</link>
   <id>http://eureka22.github.io/code-highlighting-post</id>
   <updated>2013-08-20T00:00:00-00:00</updated>
-  <published>2013-08-16T00:00:00+08:00</published>
+  <published>2013-08-16T00:00:00-04:00</published>
   
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -371,7 +371,7 @@
 end
 &lt;/code&gt;&lt;/pre&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/code-highlighting-post&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on August 16, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/code-highlighting-post&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on August 16, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -379,16 +379,16 @@ end
   <title type="html"><![CDATA[Sample Link Post]]></title>
   <link>http://mademistakes.com</link>
   <id>http://eureka22.github.io/sample-link-post</id>
-  <published>2013-08-12T00:00:00+08:00</published>
-  <updated>2013-08-12T00:00:00+08:00</updated>
+  <published>2013-08-12T00:00:00-04:00</published>
+  <updated>2013-08-12T00:00:00-04:00</updated>
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post&amp;#8217;s YAML front matter and you&amp;#8217;re done.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/sample-link-post&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on August 12, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/sample-link-post&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on August 12, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -396,10 +396,10 @@ end
   <title type="html"><![CDATA[A Post with a Video]]></title>
   <link>http://eureka22.github.io/video-post</link>
   <id>http://eureka22.github.io/video-post</id>
-  <published>2013-06-25T00:00:00+08:00</published>
-  <updated>2013-06-25T00:00:00+08:00</updated>
+  <published>2013-06-25T00:00:00-04:00</published>
+  <updated>2013-06-25T00:00:00-04:00</updated>
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -412,7 +412,7 @@ end
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;560&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;315&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.youtube.com/embed/PWf4WUoMXwg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/video-post&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on June 25, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/video-post&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on June 25, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -421,10 +421,10 @@ end
   <link>http://eureka22.github.io/readability-feature-post</link>
   <id>http://eureka22.github.io/readability-feature-post</id>
   <updated>2013-06-30T00:00:00-00:00</updated>
-  <published>2013-05-23T00:00:00+08:00</published>
+  <published>2013-05-23T00:00:00-04:00</published>
   
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -469,7 +469,7 @@ end
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/readability-feature-post&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/readability-feature-post&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -477,10 +477,10 @@ end
   <title type="html"><![CDATA[A Post with Images]]></title>
   <link>http://eureka22.github.io/sample-post-images</link>
   <id>http://eureka22.github.io/sample-post-images</id>
-  <published>2013-05-22T00:00:00+08:00</published>
-  <updated>2013-05-22T00:00:00+08:00</updated>
+  <published>2013-05-22T00:00:00-04:00</published>
+  <updated>2013-05-22T00:00:00-04:00</updated>
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -540,7 +540,7 @@ end
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/sample-post-images&quot;&gt;A Post with Images&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on May 22, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/sample-post-images&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on May 22, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -548,10 +548,10 @@ end
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
   <link>http://eureka22.github.io/readability-post</link>
   <id>http://eureka22.github.io/readability-post</id>
-  <published>2012-05-22T00:00:00+08:00</published>
-  <updated>2012-05-22T00:00:00+08:00</updated>
+  <published>2012-05-22T00:00:00-04:00</published>
+  <updated>2012-05-22T00:00:00-04:00</updated>
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -596,7 +596,7 @@ end
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/readability-post&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/readability-post&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
 </entry>
 
 
@@ -605,10 +605,10 @@ end
   <link>http://eureka22.github.io/sample-post</link>
   <id>http://eureka22.github.io/sample-post</id>
   <updated>2013-05-31T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00+08:00</published>
+  <published>2011-03-10T00:00:00-05:00</published>
   
   <author>
-    <name>XIA Fei(Eureka)</name>
+    <name>Eureka</name>
     <uri>http://eureka22.github.io</uri>
     <email>xf1280@gmail.com</email>
   </author>
@@ -740,7 +740,7 @@ end
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/sample-post&quot;&gt;Sample Post&lt;/a&gt; was originally published by XIA Fei(Eureka) at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://eureka22.github.io/sample-post&quot;&gt;Sample Post&lt;/a&gt; was originally published by Eureka at &lt;a href=&quot;http://eureka22.github.io&quot;&gt;Eureland by Eureka&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
 </entry>
 
 </feed>

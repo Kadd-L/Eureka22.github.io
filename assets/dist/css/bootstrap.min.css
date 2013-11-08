@@ -20,7 +20,7 @@ audio:not([controls]) {
 	display: none
 }
 html {
-	font-size: 0%;
+	font-size: 2000%;
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%
@@ -152,7 +152,7 @@ table {
 	box-shadow: none!important
 }
 a,a:visited {
-	text-decoration: none
+	text-decoration: underline
 }
 a[href]:after {
 	content: " (" attr(href) ")"
@@ -236,7 +236,7 @@ text-decoration: none
 }
 a:hover,a:focus {
 color: #2a6496;
-text-decoration: none
+text-decoration: underline
 }
 a:focus {
 outline: thin dotted #333;
@@ -1742,7 +1742,7 @@ border-color: transparent
 }
 .btn-link:hover,.btn-link:focus {
 color: #2a6496;
-text-decoration: none;
+text-decoration: underline;
 background-color: transparent
 }
 .btn-link[disabled]:hover,fieldset[disabled] .btn-link:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:focus {

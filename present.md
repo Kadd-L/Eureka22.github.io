@@ -24,7 +24,6 @@ description: "An archive of posts."
   <body>
 	  
 	<h1>Hello, world!</h1>
-	<i class="icon-camera-retro"></i> icon-camera-retro
 	<div class="btn-group">
 	  <button type="button" class="btn btn-default">Left</button>
 	  <button type="button" class="btn btn-default">Middle</button>
@@ -138,8 +137,6 @@ description: "An archive of posts."
 	      break;
 	    }
 	  }
-	  
-	  var t=setTimeout("alert('3 seconds!')",10000)  
 	</script>
 	
 	
