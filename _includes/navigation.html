@@ -42,6 +42,10 @@
 				{% if site.owner.tumblr %}<li>
 					<a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="icon-tumblr"></i> Tumblr</a>
 				</li>{% endif %}
+				{% if site.owner.renren %}<li>
+				<a href="{{ site.owner.renren }}"><i class="icon-group"></i>Renren</a>
+			</li>{% endif %}
+				
 			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
@@ -70,6 +74,6 @@
 				
 				
 		
-		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}"><i class="icon-gift icon-large"></i>{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}"><i class="icon-gift icon-large"></i>{{ link.title }}</a>{% endif %}</li>{% endfor %}
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
