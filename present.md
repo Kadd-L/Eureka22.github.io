@@ -4,6 +4,7 @@ title: Happy Birthday
 image:
   feature: snowball.jpg
 description: "An archive of posts."
+permalink: /present/
 ---
 
 <!DOCTYPE html>

@@ -1,12 +1,12 @@
 ---
+title : 神经网络学习笔记
 layout: post-math
-title: "Neronetwork"
 description: "Tutorial"
 category: "笔记"
 comments : true
 tags: []
 ---
-#神经网络学习笔记
+
 ---
 
 ##概述

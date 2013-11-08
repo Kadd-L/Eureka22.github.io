@@ -56,11 +56,13 @@
 								<li><a href="{{ site.url }}/categories/"><i class="icon-folder-close icon-large"></i>All Categories</a></li>
 				
 				<li>
-					<a href="#">Catagory</a>
+					<a href="#"><i class="icon-folder-open icon-large"></i>Catagory</a>
 					<ul class="dl-submenu">
-						<li><a href="{{ site.url }}/archive/">1</a></li>
-						<li><a href="{{ site.url }}/tags/">2</a></li>
-						<li><a href="{{ site.url }}/categories/">3</a></li>
+						{% for category in site.categories %}
+						<li>
+							<a href = "{{site.url}}/categories/#{{category[0]}}">{{category[0]}}({{category[1].size}})</a>
+						</li>
+						{% endfor %}
 					</ul>
 				</li>
 			</ul>
