@@ -236,7 +236,7 @@ text-decoration: none
 }
 a:hover,a:focus {
 color: #2a6496;
-text-decoration: underline
+text-decoration: none
 }
 a:focus {
 outline: thin dotted #333;
@@ -1742,7 +1742,7 @@ border-color: transparent
 }
 .btn-link:hover,.btn-link:focus {
 color: #2a6496;
-text-decoration: underline;
+text-decoration: none;
 background-color: transparent
 }
 .btn-link[disabled]:hover,fieldset[disabled] .btn-link:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:focus {
