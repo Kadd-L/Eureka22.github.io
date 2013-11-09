@@ -23,3 +23,13 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 {% endif %}
 {% if site.disqus_shortname and page.comments %}{% include disqus_comments.html %}{% endif %}
+
+{% if page.math %}
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{% endif %}
+
+
+{% if page.bootstrap %}
+ <script src="/assets/dist/js/bootstrap.min.js"></script>
+ {% endif %}

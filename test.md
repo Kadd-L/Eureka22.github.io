@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: post-bootstrap
 bootstrap: true
-title: Happy Birthday
+title: Test
 image:
   feature: snowball.jpg
 description: "An archive of posts."
-permalink: /present/
+permalink: /test/
 ---
 
 <!DOCTYPE html>

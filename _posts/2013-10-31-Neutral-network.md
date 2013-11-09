@@ -1,10 +1,12 @@
 ---
 title : 神经网络学习笔记
-layout: post-math
+layout: post
 description: "Tutorial"
 category: "笔记"
 comments : true
+math: true
 tags: []
+
 ---
 
 ---

@@ -1,7 +1,10 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} {% else %} {{ page.title }}&#8211;{{ site.title }} {% endif %}</title>
+
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+
 
 {% if site.owner.twitter %}<!-- Twitter Cards -->
 {% if page.image.feature %}<meta name="twitter:card" content="summary_large_image">
@@ -59,4 +62,7 @@
 
 {% if page.image.background or site.background %}
 <style type="text/css">body {background-image:url({{ site.url }}/images/{% if page.image.background %}{{ page.image.background }}{% else %}{{ site.background }}{% endif %});}</style>
+{% endif %}
+
+{% if page.bootstrap %} <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 {% endif %}
