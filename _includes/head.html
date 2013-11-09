@@ -66,3 +66,7 @@
 
 {% if page.bootstrap %} <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 {% endif %}
+
+{% if site.analysis %}
+{% include analysis.html %}
+{% endif %}
