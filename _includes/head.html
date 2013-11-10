@@ -64,7 +64,7 @@
 <style type="text/css">body {background-image:url({{ site.url }}/images/{% if page.image.background %}{{ page.image.background }}{% else %}{{ site.background }}{% endif %});}</style>
 {% endif %}
 
-{% if page.bootstrap %} <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+{% if page.bootstrap %} <link href="{{ site.url }}/assets/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 {% endif %}
 
 {% if site.analysis %}
