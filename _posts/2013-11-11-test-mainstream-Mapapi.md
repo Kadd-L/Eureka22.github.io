@@ -1,5 +1,7 @@
 ---
+title: 地图API试用
 layout: post
+hide: true
 description: "几款主流地图api的试用"
 category: "学习"
 tags: [地图, api, google, baidu]
