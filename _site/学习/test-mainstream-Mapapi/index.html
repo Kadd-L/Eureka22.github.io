@@ -5,10 +5,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Page Not Found </title>
+<title>Test Mainstream Mapapi </title>
 
-<meta name="description" content="Page not found. Your pixels are in another canvas.">
-
+<meta name="description" content="几款主流地图api的试用">
+<meta name="keywords" content="地图, api, google, baidu">
 
 
 
@@ -17,16 +17,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Page Not Found">
-<meta property="og:description" content="Page not found. Your pixels are in another canvas.">
-<meta property="og:url" content="http://eureland.tk/404.html">
+<meta property="og:title" content="Test Mainstream Mapapi">
+<meta property="og:description" content="几款主流地图api的试用">
+<meta property="og:url" content="http://eureland.tk/%E5%AD%A6%E4%B9%A0/test-mainstream-Mapapi">
 <meta property="og:site_name" content="Eureland by Eureka">
 
 
 
 
 
-<link rel="canonical" href="http://eureland.tk/404.html">
+<link rel="canonical" href="http://eureland.tk/%E5%AD%A6%E4%B9%A0/test-mainstream-Mapapi">
 <link href="http://eureland.tk/feed.xml" type="application/atom+xml" rel="alternate" title="Eureland by Eureka Feed">
 <link rel="author" href="https://plus.google.com/u/0/111116134168011837330?rel=author">
 
@@ -77,9 +77,10 @@ var _hmt = _hmt || [];
 </script>
 
 
+
 </head>
 
-<body id="page"  itemscope itemtype="http://schema.org/WebPage">
+<body id="post"  itemscope itemtype="http://schema.org/WebPage">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -161,31 +162,159 @@ var _hmt = _hmt || [];
 
 
 
-<div id="main" role="main" itemprop="mainContentOfPage">
-  <article class="entry">
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="header-title">
       <div class="header-title-wrap">
-        <h1 class="entry-title" itemprop="name">Page Not Found</h1>
+        
+          <h1 class="entry-title" itemprop="name"><a href="/%E5%AD%A6%E4%B9%A0/test-mainstream-Mapapi" rel="bookmark" title="Test Mainstream Mapapi" itemprop="url">Test Mainstream Mapapi</a></h1>
+        
+        <h2>November 11, 2013</h2>
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content" itemprop="description">
-      <p>Sorry, but the page you were trying to view does not exist &#8212; perhaps you can try searching for it below.</p>
+      <h1 id="api">几款主流地图api的试用</h1>
+<hr />
+<p>目前地图api有很多，比较常用的有谷歌，百度，必应等，而且有各种版本，有JS的、AJAX的还有若干支持移动应用的版本，之前看到了在HTML5中获取位置的例子，所以迫不及待试一下╮(╯▽╰)╭。</p>
 
-<script type="text/javascript">
-  var GOOG_FIXURL_LANG = 'en';
-  var GOOG_FIXURL_SITE = 'http://eureland.tk'
+<h2 id="api-1">谷歌地图api</h2>
+
+<html>
+<body>
+<div id="mapholder"></div>
+
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>  
+<script>
+
+var x=document.getElementById("demo");
+(function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  })()
+
+function showPosition(position)
+  {
+  lat=position.coords.latitude;
+  lon=position.coords.longitude;
+  latlon=new google.maps.LatLng(lat, lon)
+  mapholder=document.getElementById('mapholder')
+  mapholder.style.height='250px';
+  mapholder.style.width='500px';
+
+  var myOptions={
+  center:latlon,zoom:14,
+  mapTypeId:google.maps.MapTypeId.ROADMAP,
+  mapTypeControl:true,
+  navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
+  };
+  var map=new google.maps.Map(document.getElementById("mapholder"),myOptions);
+  var marker=new google.maps.Marker({position:latlon,map:map,title:"You are here!"});
+  }
+
+function showError(error)
+  {
+  switch(error.code) 
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="An unknown error occurred."
+      break;
+    }
+  }
+  
+  
 </script>
+</body>
+</html>
 
-<script type="text/javascript" src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
+<h2 id="sosoapi">soso地图api</h2>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script charset="utf-8" src="http://map.soso.com/api/v2/main.js"></script>
+<script>
+function getlocation()
+{
+    if (navigator.geolocation)
+      {
+      navigator.geolocation.getCurrentPosition(init);
+      }
+    else{x.innerHTML="Geolocation is not supported by this browser.";}
+}
+
+function init(pos) {
+    var map = new soso.maps.Map(document.getElementById("container"), {
+        // 地图的中心地理坐标。
+        center: new soso.maps.LatLng(pos.coords.latitude,pos.coords.longitude),
+		zoom: 15
+    });
+    var marker=new soso.maps.Marker({
+        position:center,
+		animation:soso.maps.MarkerAnimation.DROP,
+        map:map
+    });
+	
+}
 </script>
+</head>
+<body onload="getlocation();">
+	
 
+<div style="width:500px;height:250px" id="container"></div>
+</body>
+</html>
+
+<p>目前只试了这两个，还会有更多功能的测试，待续。</p>
 
       <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://eureland.tk/tags/index.html#地图" title="Pages tagged 地图" rel="tag" class="tag">地图</a><a href="http://eureland.tk/tags/index.html#api" title="Pages tagged api" rel="tag" class="tag">api</a><a href="http://eureland.tk/tags/index.html#google" title="Pages tagged google" rel="tag" class="tag">google</a><a href="http://eureland.tk/tags/index.html#baidu" title="Pages tagged baidu" rel="tag" class="tag">baidu</a></span>
+        <span><a href="http://eureland.tk/%E5%AD%A6%E4%B9%A0/test-mainstream-Mapapi" rel="bookmark" title="Test Mainstream Mapapi" itemprop="url">Test Mainstream Mapapi</a> was published on <span class="entry-date date published updated"><time datetime="2013-11-11T00:00:00+08:00" itemprop="datePublished">November 11, 2013</time></span></span>
         
+        <span class="author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="fn"><a href="http://eureland.tk/about" title="About XIA Fei (Eureka)" itemprop="url">XIA Fei (Eureka)</a></span></span>
         
       </footer>
     </div><!-- /.entry-content -->
     
+    
+    <div class="read-more">
+      
+        <div class="read-more-header">
+          <a href="http://eureland.tk/%E7%AC%94%E8%AE%B0/Neutral-network" class="read-more-btn">Read More</a>
+        </div><!-- /.read-more-header -->
+        <div class="read-more-content">
+          <h3><a href="http://eureland.tk/%E7%AC%94%E8%AE%B0/Neutral-network" title="神经网络学习笔记">神经网络学习笔记</a></h3>
+          <p>Tutorial <a href="http://eureland.tk/%E7%AC%94%E8%AE%B0/Neutral-network">Continue reading</a></p>
+        </div><!-- /.read-more-content -->
+      
+      <div class="read-more-list">
+        
+          <div class="list-item">
+            <h4><a href="http://eureland.tk/%E7%94%9F%E6%B4%BB/hello-world" title="Hello World">Hello World</a></h4>
+            <span>Published on October 30, 2013</span>
+          </div><!-- /.list-item -->
+        
+          <div class="list-item">
+            <h4><a href="http://eureland.tk/Helloworld-post" title="Sample Post">Sample Post</a></h4>
+            <span>Published on October 29, 2013</span>
+          </div><!-- /.list-item -->
+        
+      </div><!-- /.read-more-list -->
+      
+    </div><!-- /.read-more -->
   </article>
 </div><!-- /#main -->
 
@@ -207,7 +336,7 @@ Posts written on a <i class="icon-apple icon-large"></i>Macintosh, powered by <a
 
 
 
-          
+	        
 
 </body>
 </html>
