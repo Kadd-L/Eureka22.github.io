@@ -76,6 +76,6 @@
 				
 				
 		
-		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}"><i class="icon-gift icon-large"></i>{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}"><i class="icon-gift icon-large"></i>{{ link.title }}</a>{% endif %}</li>{% endfor %}
+		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
