@@ -3,7 +3,7 @@ layout: post
 title: ""
 description: ""
 category: "Debug"
-comment: true
+comments: true
 tags: [SDL GL]
 ---
 #配置SDL过程中遇到的问题及解决方案
