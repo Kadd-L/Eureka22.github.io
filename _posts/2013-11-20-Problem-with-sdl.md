@@ -3,6 +3,7 @@ layout: post
 title: ""
 description: ""
 category: "Debug"
+comment: true
 tags: [SDL GL]
 ---
 #配置SDL过程中遇到的问题及解决方案
@@ -69,3 +70,4 @@ libpng中出现前向声明问题
     make: *** [bin/debug/physics.exe] Error 1
     
 似乎是一个比较常见的问题，正在解决当中。
+直接下载了GLEW的源代码，重新编译安装了一遍，问题解决。
