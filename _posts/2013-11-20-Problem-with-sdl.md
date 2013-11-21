@@ -71,3 +71,31 @@ libpng中出现前向声明问题
     
 似乎是一个比较常见的问题，正在解决当中。
 直接下载了GLEW的源代码，重新编译安装了一遍，问题解决。
+
+##万万没想到
+
+编译结束才是噩梦的开始，Mark
+	
+	
+	  th135224:debug xiafei$ ./physics.exe collision.scene
+	  2013-11-20 23:39:04.842 physics.exe[44200:707] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Error (1000) creating CGSWindow on line 259'
+	*** First throw call stack:
+	(
+		0   CoreFoundation                      0x00007fff8db7c0a6 __exceptionPreprocess + 198
+		1   libobjc.A.dylib                     0x00007fff860b83f0 objc_exception_throw + 43
+		2   CoreFoundation                      0x00007fff8db7be7c +[NSException raise:format:] + 204
+		3   AppKit                              0x00007fff895d5c29 _NSCreateWindowWithOpaqueShape2 + 655
+		4   AppKit                              0x00007fff895d4420 -[NSWindow _commonAwake] + 2002
+		5   AppKit                              0x00007fff89592e62 -[NSWindow _commonInitFrame:styleMask:backing:defer:] + 1763
+		6   AppKit                              0x00007fff89591faf -[NSWindow _initContent:styleMask:backing:defer:contentView:] + 1568
+		7   AppKit                              0x00007fff8959197f -[NSWindow initWithContentRect:styleMask:backing:defer:] + 45
+		8   libSDL-1.2.0.dylib                  0x000000010dbd2bfa -[SDL_QuartzWindow initWithContentRect:styleMask:backing:defer:] + 279
+		9   libSDL-1.2.0.dylib                  0x000000010dbd0acd QZ_SetVideoMode + 2629
+		10  libSDL-1.2.0.dylib                  0x000000010dbc7907 SDL_SetVideoMode + 886
+		11  physics.exe                         0x000000010d9aed55 _ZN4_462L17initialize_windowEiiPKc + 133
+		12  physics.exe                         0x000000010d9af1ae _ZN4_46211Application17start_applicationEPS0_iidPKc + 254
+		13  physics.exe                         0x000000010d9f5fb5 main + 549
+		14  libdyld.dylib                       0x00007fff90f977e1 start + 0
+		15  ???                                 0x0000000000000002 0x0 + 2
+	)
+	
