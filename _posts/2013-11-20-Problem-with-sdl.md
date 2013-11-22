@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ""
+title: "配置SDL过程中遇到的问题及解决方案"
 description: ""
 category: "Debug"
 comments: true
 tags: [SDL GL]
 ---
-#配置SDL过程中遇到的问题及解决方案
+
 
 ##第一个问题
 
