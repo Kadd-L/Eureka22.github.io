@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://eureland.tk/feed.xml" />
 <link rel="alternate" type="text/html" href="http://eureland.tk" />
-<updated>2013-11-28T14:49:22+08:00</updated>
+<updated>2013-11-28T17:12:06+08:00</updated>
 <id>http://eureland.tk/</id>
 <author>
   <name>XIA Fei (Eureka)</name>
@@ -246,6 +246,29 @@ function init(pos) {
 &lt;p&gt;目前只试了这两个，还会有更多功能的测试，待续。&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://eureland.tk/%E5%AD%A6%E4%B9%A0/test-mainstream-Mapapi&quot;&gt;地图API试用&lt;/a&gt; was originally published by XIA Fei (Eureka) at &lt;a href=&quot;http://eureland.tk&quot;&gt;Eureland by Eureka&lt;/a&gt; on November 11, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[忙碌的生活]]></title>
+  <link>http://eureland.tk/life/busy</link>
+  <id>http://eureland.tk/life/busy</id>
+  <published>2013-11-09T00:00:00+08:00</published>
+  <updated>2013-11-09T00:00:00+08:00</updated>
+  <author>
+    <name>XIA Fei (Eureka)</name>
+    <uri>http://eureland.tk</uri>
+    <email>xf1280@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;今天终于把OpenGL的作业和数据结构作业都做完了，写完报告真是成就感满满，但是还要复习大物，一直都是这么忙。&lt;/p&gt;
+
+&lt;p&gt;最近感觉写了很多和课业无关的代码，一想到这个就觉得很罪恶。感觉做起软件的东西比做硬件要门槛低一些，而且相对来说花的时间要少一些，所以才会愿意去做吧。&lt;/p&gt;
+
+&lt;p&gt;上周去听的Seminar真的很赞，学长是做deep learning的，听了他讲的感觉自己就能写一个autoencoder出来，但是学长说deep learning is art rather than science，想想也不无道理。&lt;/p&gt;
+
+&lt;p&gt;发现一个神器textmate，感觉调顺手了应该和vim一样好用，据说还有Emacs，用后再来评价吧~&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://eureland.tk/life/busy&quot;&gt;忙碌的生活&lt;/a&gt; was originally published by XIA Fei (Eureka) at &lt;a href=&quot;http://eureland.tk&quot;&gt;Eureland by Eureka&lt;/a&gt; on November 09, 2013.&lt;/p&gt;</content>
 </entry>
 
 

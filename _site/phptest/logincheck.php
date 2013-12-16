@@ -130,7 +130,7 @@ var _hmt = _hmt || [];
 					<ul class="dl-submenu">
 						
 						<li>
-							<a href = "http://eureland.tk/categories/#debug">debug(1)</a>
+							<a href = "http://eureland.tk/categories/#笔记">笔记(1)</a>
 						</li>
 						
 						<li>
@@ -138,11 +138,15 @@ var _hmt = _hmt || [];
 						</li>
 						
 						<li>
+							<a href = "http://eureland.tk/categories/#debug">debug(1)</a>
+						</li>
+						
+						<li>
 							<a href = "http://eureland.tk/categories/#学习">学习(1)</a>
 						</li>
 						
 						<li>
-							<a href = "http://eureland.tk/categories/#笔记">笔记(1)</a>
+							<a href = "http://eureland.tk/categories/#life">life(1)</a>
 						</li>
 						
 					</ul>
