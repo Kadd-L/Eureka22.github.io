@@ -27,7 +27,7 @@ jQuery(function($) {
 		},
 		source: function(){
 			this.echo("Congratulations! Bravo! You found the answer");
-		}
+		},
         register: function() {
             var term = this,
                 register_info = {};
