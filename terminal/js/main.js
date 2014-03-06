@@ -19,11 +19,11 @@ jQuery(function($) {
 		start: function(){
 			this.echo("Among the five pages, only one is different from others");
 			this.echo("And the answer is just in the picture\n");
-			this.echo("[[u;;]http://eureland.tk/terminal/pics/hanzi.html]");
-			this.echo("[[u;;]http://eureland.tk/terminal/pics/txd.html]");
-			this.echo("[[u;;]http://eureland.tk/terminal/pics/wwq.html]");
-			this.echo("[[u;;]http://eureland.tk/terminal/pics/nanye.html]");
-			this.echo("[[u;;]http://eureland.tk/terminal/pics/xiaowen.html]");
+			this.echo("[[u;;]http://eureka.u.qiniudn.com/txd.html]");
+			this.echo("[[u;;]http://eureka.u.qiniudn.com/hanzi.html]");
+			this.echo("[[u;;]http://eureka.u.qiniudn.com/wwq.html]");
+			this.echo("[[u;;]http://eureka.u.qiniudn.com/nanye.html]");
+			this.echo("[[u;;]http://eureka.u.qiniudn.com/xiaowen.html]");
 		},
 		source: function(){
 			this.echo("Congratulations! Bravo! You found the answer");
