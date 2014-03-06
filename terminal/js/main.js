@@ -1,16 +1,33 @@
 jQuery(function($) {
     $('html').terminal({
         help: function() {
-            this.echo("info         Show information about the Hackthon");
-            this.echo("register     Register LabmU's Hackthon");
-            this.echo("labmu        Link to Lab mU homepage\n");
-        },
+            this.echo("info         Show information about the Game");
+            this.echo("start     	Start to play");
+            this.echo("helphelp   If you cannot solve the game, you can find more help");
+        	this.echo("merci		You can thank the author as you wish\n");
+		},
         info: function() {
-            this.echo("Time: Sat 2014-03-01 10AM~10PM +0800");
-            this.echo("Place: C405");
-            this.echo("Theme: Mobile development on TUNet application (http://tunet.lab.mu).");
-            this.echo("Best if U: Had exp in Android, iOS development or mobile UX design.\n");
+            this.echo("Time: Fri 2014-03-07 10AM~10PM +0800");
+            this.echo("Place: Unknown");
+            this.echo("Theme: DA22 girls will enjoy the girls day!");
+            this.echo("Now you can: Enjoy the game\n");
         },
+		
+		helphelp: function() {
+			this.echo("You can call 15652799536 or write to [[u;;]xf1280@gmail.com] for more help!\n");
+		},
+		start: function(){
+			this.echo("Among the five pages, only one is different from others");
+			this.echo("And the answer is just in the picture\n");
+			this.echo("[[u;;]http://eureland.tk/terminal/pics/hanzi.html]");
+			this.echo("[[u;;]http://eureland.tk/terminal/pics/txd.html]");
+			this.echo("[[u;;]http://eureland.tk/terminal/pics/wwq.html]");
+			this.echo("[[u;;]http://eureland.tk/terminal/pics/nanye.html]");
+			this.echo("[[u;;]http://eureland.tk/terminal/pics/xiaowen.html]");
+		},
+		source: function(){
+			this.echo("Congratulations! Bravo! You found the answer");
+		}
         register: function() {
             var term = this,
                 register_info = {};
@@ -64,18 +81,15 @@ jQuery(function($) {
                     prompt: 'Your Name: '
                 });
         },
-        labmu: function() {
-            this.echo("Share the link [[u;;]http://www.lab.mu] as you wish!\n");
+        eureland: function() {
+            this.echo("Share the link [[u;;]http://eureland.tk] as you wish!\n");
         }
+		
+		
+		
     }, {
         greetings: function() {
-            return "\n" +
-                ",--.           ,--.             ,--. ,--.    ,--.  ,--.              ,--.     ,--.  ,--.                     \n" +
-                "|  |    ,--,--.|  |-. ,--,--,--.|  | |  |    |  '--'  | ,--,--. ,---.|  |,-.,-'  '-.|  ,---.  ,---. ,--,--,  \n" +
-                "|  |   ' ,-.  || .-. '|        ||  | |  |    |  .--.  |' ,-.  || .--'|     /'-.  .-'|  .-.  || .-. ||      \\ \n" +
-                "|  '--.\\ '-'  || `-' ||  |  |  |'  '-'  '    |  |  |  |\\ '-'  |\\ `--.|  \\  \\  |  |  |  | |  |' '-' '|  ||  | \n" +
-                "`-----' `--`--' `---' `--`--`--' `-----'     `--'  `--' `--`--' `---'`--'`--' `--'  `--' `--' `---' `--''--' \n" +
-                "\n"+
+			  return "\n" +
                 "What can we do to [[u;;]help] you?\n";
         }
     });
