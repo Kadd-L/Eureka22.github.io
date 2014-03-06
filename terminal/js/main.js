@@ -27,6 +27,9 @@ jQuery(function($) {
 		},
 		source: function(){
 			this.echo("Congratulations! Bravo! You found the answer");
+			this.echo("And the answer is just in the source code of the page");
+			this.echo("You can view the source code of the page via the browser\n");
+		
 		},
         register: function() {
             var term = this,
@@ -83,7 +86,10 @@ jQuery(function($) {
         },
         eureland: function() {
             this.echo("Share the link [[u;;]http://eureland.tk] as you wish!\n");
-        }
+        },
+		merci: function() {
+			this.echo("You are welcome!");
+		}
 		
 		
 		
