@@ -5,12 +5,11 @@ title: Computational Photography
 tags: [笔记]
 
 comments: true
-
+category: "笔记"
 share: true
 
 ---
 
-# Computational Photography
 
 Eureka 2014.3
 
