@@ -59,7 +59,7 @@ two main approaches
 - Wavelength resolution
 - Spatial resolution
 - Temporal resolution
-- $$$ \dots $$$
+- $$ \dots $$
 
 
 
@@ -67,9 +67,9 @@ two main approaches
 
 The introduction of light field theory is for one purpose , to extend the low dimensional 2D subspace to a higher lievel, and acquire and display the visual information in more effective ways.
 ￼
-plenoptic function $$$P(\theta, \phi, \lambda,t, V_x, V_y, V_z) $$$ :
+plenoptic function $$P(\theta, \phi, \lambda,t, V_x, V_y, V_z) $$ :
 
-$$$ P (\theta, \phi)$$$ the spherical coordinates, $$$ V_x, V_y, V_z $$$ the viewing position, $$$ \lambda $$$ wavelength, $$$ t $$$ the time dimension.
+$$ P (\theta, \phi)$$ the spherical coordinates, $$ V_x, V_y, V_z $$ the viewing position, $$ \lambda $$ wavelength, $$ t $$ the time dimension.
 
 adopted prototypes of plenoptic cameras:
 

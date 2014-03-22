@@ -31,7 +31,7 @@ Three core questions
 		Assumptions : Inactive and active
 		probability of a user being active at time t is **independent** from time before t-1
 	* Linear Threshold Model
-		edge has weight, $$$\sum w \ge T$$$, inactive -> active
+		edge has weight, $$\sum w \ge T$$, inactive -> active
 * Role-aware: Example
 		结构上的特殊性
 		
@@ -78,8 +78,8 @@ p vs PageRank: 先递增后递减
 ICM: 
 
 - I的假设过强？
-- IC没有激活的delay, 这个模型引入在$$$t+\Delta t$$$ 时才激活
-- $$$\Delta$$$ t 和 social role 有关
+- IC没有激活的delay, 这个模型引入在$$t+\Delta t$$ 时才激活
+- $$\Delta$$ t 和 social role 有关
 
 ##Modeling
 
