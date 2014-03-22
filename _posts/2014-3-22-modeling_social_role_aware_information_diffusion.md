@@ -136,16 +136,16 @@ Gibbs Sampling
 
 MCMC的一种
 
-估计P(X),根据P(X_0)sample一组，然后Update，迭代.
+估计P(X),根据$$ P(X_0) $$ sample一组，然后Update，迭代.
 MCMC每次sample一组x
 Gibbs:
 
 $${x_1,x_2,x_3} $$
 定初始值,计算：
 
-$$P(x_1|x_1^0,x_2^0,x_3^0) \rightarrow x_1^1$$
-$$P(x_2|x_1^1,x_2^0) \rightarrow x_2^1$$
-$$P(x_3|x_1^1,x_2^1) \rightarrow x_3^1$$
+$$P(x_1\|x_1^0,x_2^0,x_3^0) \rightarrow x_1^1$$
+$$P(x_2\|x_1^1,x_2^0) \rightarrow x_2^1$$
+$$P(x_3\|x_1^1,x_2^1) \rightarrow x_3^1$$
 
 ---
 
