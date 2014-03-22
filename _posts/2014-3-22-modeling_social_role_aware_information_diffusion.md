@@ -164,7 +164,7 @@ $$ N(x;u;\Sigma) = \frac{1}{\sqrt{2\pi |\Sigma|}} \exp[-\frac{1}{2}(x-u)^T\Sigma
 
 每个GMM由K个GSM叠加而成，GSM的PDF线性叠加成GMM的PDF
 
-$$ p(x) = \sum_{k=1}^K p(k)p(x|k) = \sum_{k=1}^K \pi_k N(x;u_k;\Sigma_k)$$
+$$ p(x) = \sum_{k=1}^K p(k)p(x\|k) = \sum_{k=1}^K \pi_k N(x;u_k;\Sigma_k)$$
 
 从GMM中随机选取一个点分为两个步骤
 
