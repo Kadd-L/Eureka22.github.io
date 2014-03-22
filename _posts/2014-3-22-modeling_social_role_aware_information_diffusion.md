@@ -158,7 +158,7 @@ GMM是GSM的线性叠加
 ## GSM
 多维随机变量符合高斯分布时，PDF为：
 
-$$ N(x;u;\Sigma) = \frac{1}{\sqrt{2\pi |\Sigma|}} \exp[-\frac{1}{2}(x-u)^T\Sigma^{-1} (x-u)]$$
+$$ N(x;u;\Sigma) = \frac{1}{\sqrt{2\pi \|\Sigma|}} \exp[-\frac{1}{2}(x-u)^T\Sigma^{-1} (x-u)]$$
 
 ## GMM
 
