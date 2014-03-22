@@ -128,7 +128,7 @@ diffusion process
 
 师兄提出 Role和被接受者（follower）也有关系，也就是说不是考虑general的role，而是考虑具体的role(social tie?)。
 
-$$ \phi_{i,u,v}^t = P (z\_{i,u,v}^t = 1)  = \dots $$
+$$ \phi_{i,u,v}^t = P (z_{i,u,v}^t = 1)  = \dots $$
 
 ### Model learning
 
@@ -143,9 +143,9 @@ Gibbs:
 $${x_1,x_2,x_3} $$
 定初始值,计算：
 
-$$P(x_1\|x_1^0,x_2^0,x_3^0) \rightarrow x_1^1$$
-$$P(x_2\|x_1^1,x_2^0) \rightarrow x_2^1$$
-$$P(x_3\|x_1^1,x_2^1) \rightarrow x_3^1$$
+$$P(x_1|x_1^0,x_2^0,x_3^0) \rightarrow x_1^1$$
+$$P(x_2|x_1^1,x_2^0) \rightarrow x_2^1$$
+$$P(x_3|x_1^1,x_2^1) \rightarrow x_3^1$$
 
 ---
 
@@ -164,7 +164,7 @@ $$ N(x;u;\Sigma) = \frac{1}{\sqrt{2\pi |\Sigma|}} \exp[-\frac{1}{2}(x-u)^T\Sigma
 
 每个GMM由K个GSM叠加而成，GSM的PDF线性叠加成GMM的PDF
 
-$$ p(x) = \sum_{k=1}^K p(k)p(x|k) = \sum\_{k=1}^K \pi_k N(x;u_k;\Sigma_k)$$
+$$ p(x) = \sum_{k=1}^K p(k)p(x|k) = \sum_{k=1}^K \pi_k N(x;u_k;\Sigma_k)$$
 
 从GMM中随机选取一个点分为两个步骤
 
@@ -176,7 +176,7 @@ $$ p(x) = \sum_{k=1}^K p(k)p(x|k) = \sum\_{k=1}^K \pi_k N(x;u_k;\Sigma_k)$$
 极大似然估计，找到一组参数，使得(Likelihood Function)最大。
 （对于GMM，LF太小，需要去对数）
 
-$$\sum_{i=1}^N log \sum\_{k=1}^K \pi_k N(x;u_k;\Sigma_k)$$
+$$\sum_{i=1}^N log \sum_{k=1}^K \pi_k N(x;u_k;\Sigma_k)$$
 
 求导比较困难，因为log里又有求和
 
