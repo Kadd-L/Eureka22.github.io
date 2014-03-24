@@ -9,9 +9,7 @@ tags: [笔记]
 
 ---
 
----
 
-#Modeling Social Role-aware Information Diffusion
 
 Three core questions
 
