@@ -1,7 +1,7 @@
 ---
 layout: page
 bootstrap: true
-title: Happy Birthday to Anna
+title: <del>Happy Birthday to Anna</del>
 image:
   feature: present3.png
   external: http://eureka.u.qiniudn.com
